@@ -1,0 +1,186 @@
+#title {
+  background-color: #ff4c68;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.welcoming {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.row
+{
+  height:500px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.slogan {
+  margin-top: 100px;
+}
+
+.fa-brands {
+  margin-right: 10px;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.iphone {
+  transform: rotate(25deg);
+  width: 60%;
+  margin: 60px;
+}
+
+@media (max-width:991px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #features {
+    position: static;
+    background-color: none;
+  }
+
+  .row
+  {
+    height:auto;
+  }
+  #title
+  {
+    text-align:center;
+  }
+}
+
+@media (max-width:1230px) {
+  .container-fluid {
+    padding: 3%;
+  }
+}
+
+/* Featuers */
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.featuer {
+  float: left;
+  margin-top: 100px;
+  text-align: center;
+  padding: 3%;
+}
+
+.icons {
+  transform: scale(5, 5);
+  margin: 30px 30px 60px 30px;
+  color: #ef8172;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+#features h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Testimonials */
+#testimonials {
+  margin-top: 100px;
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.doggie {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo {
+  width: 20%;
+  padding: 3%;
+}
+
+/*Pricing*/
+#pricing {
+  padding: 3% 15%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#pricing h2 {
+  font-size: 3rem;
+}
+
+.card {
+  padding: 0;
+  margin-top: 40px;
+}
+
+/*Call to action */
+
+#cta
+{
+  background-color:#ff4c68;
+  text-align:center;
+  padding:3% 15%;
+  margin-top:50px;
+}
+
+/*Footer*/
+#footer
+{
+  background-color:#fff;
+  text-align:center;
+  padding:7% 15% 3%;
+
+}
+#footer p
+{
+  padding:1%;
+}
+#footer i
+{
+  padding:1%;
+}
